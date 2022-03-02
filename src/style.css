@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Hubballi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Changa:wght@300;500&family=Hubballi&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2BBFEF;
+    padding: 20px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+
+}
+
+.navbar {
+    width: 40%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin: 15px;
+}
+
+.navbar a {
+    padding: 15px;
+    color: #182780;
+    font-size: 25px;
+    font-family: 'Hubballi', cursive;
+    font-weight: 700;
+    border: 1px solid #182780;
+    border-radius: 12px;
+}
+
+a:hover {
+    color: #5B020D;
+    background-color: #FFF;
+}
+
+a:active {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mainPart {
+    background-image: url(https://images.pexels.com/photos/1587/blurred-background.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
+.mainPart ul {
+    padding: 10px;
+}
+
+.mainPart li {
+    font-size: 26px;
+}
+
+.mainPart li,
+.mainPart h1 {
+    width: 55%;
+    margin: 10px auto;
+    font-family: 'Hubballi', cursive;
+    text-align: center;
+}
+
+.mainPart h1 {
+    color: brown;
+    font-size: 45px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    margin: 20px 30px;
+    ;
+    padding: 25px;
+}
+
+.content p {
+    background-color: #ecedf1;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.content img {
+    width: 35%;
+    padding: 15px;
+}
+
+.content1 p {
+    color: #7a0815dc;
+    background-color: #dacacc;
+}
+
+.content2 p {
+    color: #182780;
+    background-color: #b3b8d3;
+}
+
+.content3 p {
+    color: rgb(4, 80, 4);
+    background-color: rgb(180, 226, 180);
+}
+
+.footerPart {
+    height: 100px;
+    padding: 25px;
+    border-top: 2px solid gray;
+
+}
+
+.footerPart p {
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 22px;
+    padding: 10px;
+
+}
