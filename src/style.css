@@ -55,12 +55,12 @@ header h1 {
     border-radius: 12px;
 }
 
-a:hover {
+.navbar a:hover {
     color: #5B020D;
     background-color: #FFF;
 }
 
-a:active {
+.navbar a:active {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -99,7 +99,6 @@ strong {
 .content {
     display: flex;
     margin: 20px 30px;
-    ;
     padding: 25px;
 }
 
@@ -136,6 +135,7 @@ strong {
     height: 100px;
     padding: 25px;
     border-top: 2px solid gray;
+    clear: both;
 }
 
 .footerPart p {
@@ -143,10 +143,10 @@ strong {
     font-family: 'Architects Daughter', cursive;
     font-size: 22px;
     padding: 10px;
-
 }
 
 /* Books */
+
 .mainPart2 {
     padding: 15px;
     background: linear-gradient(90deg, rgb(65, 1, 1) 0%, rgb(202, 11, 11) 35%, rgba(238, 76, 76, 0.924) 100%);
@@ -206,4 +206,61 @@ strong {
 .card-img img {
     object-fit: cover;
     width: 100%;
+}
+
+/* Quotes */
+
+.mainPart3 {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.quote {
+    float: left;
+    background-image: url(https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 68%;
+    padding: 30px;
+    margin: 20px;
+}
+
+.quote-content {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(58, 54, 54);
+    padding: 15px;
+}
+
+.text {
+    margin-top: 10px;
+    color: #5B020D;
+}
+
+.sidebar {
+    float: right;
+    background-image: url(https://images.unsplash.com/photo-1586075010923-2dd4570fb338?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    margin: 20px;
+    height: 400px;
+}
+
+.sidebar h2 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.sidebar-content li {
+    margin-bottom: 15px;
+    border: 1px solid rgb(71, 14, 109);
+    padding: 10px;
+}
+
+.sidebar-content a {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
